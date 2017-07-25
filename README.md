@@ -1,5 +1,5 @@
-**A Repository of Benchmark Graph Dataset
-**
+## A Repository of Benchmark Graph Dataset
+
 
 This repository maintains several benchmark graph datasets, which are widely used for graph classification. The graph datasets ranges from chemical compounds, scientific publications, to twitter sentiment graphs. The chemical compound graph datasets are in “.sdf” or “.smi” format, and other graph dataset are represented as “.nel” format. All these graph datasets can be handle by frequent subgraph miner packages such as Moss [1]. A summarization of our graph datasets is given in Table 1.
 
@@ -27,8 +27,7 @@ If you used this dataset, please cite 1-2 following papers:
 - _Shirui Pan, Xingquan Zhu, Chengqi Zhang, and Philip S. Yu. "Graph Stream Classification using Labeled and Unlabeled Graphs", International Conference on Data Engineering (ICDE), pages 398-409, 2013_
 - _Shirui Pan, Jia Wu, Xingquan Zhu, Guodong Long, and Chengqi Zhang. " Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification."  IEEE Trans. Cybernetics (TCYB) 47(3): 744-758 (2017)._
 
-**2.	PTC Predictive Toxicology Challenge Data (PTC)
-**
+### 2.	PTC Predictive Toxicology Challenge Data (PTC)
 
 **Description: 
 **
@@ -71,51 +70,58 @@ If you used this dataset, please cite the following paper:
 - _Shirui Pan, Xingquan Zhu, Chengqi Zhang, and Philip S. Yu. "Graph Stream Classification using Labeled and Unlabeled Graphs", International Conference on Data Engineering (ICDE), pages 398-409, 2013_
 
 
-4.	Twitter Sentiment Graph Data
-Description:
- This dataset is extracted from twitter sentiment classification. Because of the inherently short and sparse nature, twitter sentiment analysis (i.e., predicting whether a tweet reflects a positive or a negative feeling) is a difficult task. To build a graph dataset, we represent each tweet as a graph by using tweet content, with nodes in each graph denoting the terms and/or smiley symbols (e.g, :-D and :-P) and edges indicating the co-occurrence relationship between two words or symbols in each tweet. To ensure the quality of the graph, we only use tweets containing 20 or more words. We select the tweets from April 6 to June 16 to generate 140,949 graphs (in a chronological order). This dataset has been used for graph stream classification in [3] and cost-sensitive learning in [2].
+### 4.	Twitter Sentiment Graph Data
 
-Dataset:
+**Description:
+**
+
+This dataset is extracted from twitter sentiment classification. Because of the inherently short and sparse nature, twitter sentiment analysis (i.e., predicting whether a tweet reflects a positive or a negative feeling) is a difficult task. To build a graph dataset, we represent each tweet as a graph by using tweet content, with nodes in each graph denoting the terms and/or smiley symbols (e.g, :-D and :-P) and edges indicating the co-occurrence relationship between two words or symbols in each tweet. To ensure the quality of the graph, we only use tweets containing 20 or more words. We select the tweets from April 6 to June 16 to generate 140,949 graphs (in a chronological order). This dataset has been used for graph stream classification in [3] and cost-sensitive learning in [2].
+
+**Dataset:
+**
+
 The data set is available here (Twitter-Graph.zip)
 
-Citations:
+**Citations:
+**
+
 If you used this dataset, please cite the following papers:
 
-Shirui Pan, Jia Wu, and Xingquan Zhu “CogBoost: Boosting for Fast Cost-sensitive Graph Classification",  IEEE Transactions on Knowledge and Data Engineering (TKDE),  27(11): 2933-2946 (2015)
+- _Shirui Pan, Jia Wu, and Xingquan Zhu “CogBoost: Boosting for Fast Cost-sensitive Graph Classification",  IEEE Transactions on Knowledge and Data Engineering (TKDE),  27(11): 2933-2946 (2015)_
+- _Shirui Pan, Jia Wu, Xingquan Zhu, and Chengqi Zhang, “Graph Ensemble Boosting for Imbalanced Noisy Graph Stream Classification",  IEEE Transactions on Cybernetics (TCYB), 45(5): 940-954 (2015)._
 
-Shirui Pan, Jia Wu, Xingquan Zhu, and Chengqi Zhang, “Graph Ensemble Boosting for Imbalanced Noisy Graph Stream Classification",  IEEE Transactions on Cybernetics (TCYB), 45(5): 940-954 (2015).
+### 5.	Functional Brain Network Analysis Data
 
-5.	Functional Brain Network Analysis Data
-Description:
+**Description:**
+
 BrainNet Functional Brain Network Analysis Data are constructed from the whole brain functional magnetic res- onance image (fMRI) atlas [6]. The purpose of the study is to map brain as a network (or a graph) where each node corresponds to a region of Interest (ROI) and the edge indicates correlations between two ROIs. In our experiments, we use functional parcellation results, CC200, from [6], which parcellate each brain into 200 regions of interest. In order to discover relationships between ROIs, the mean values of each ROI are recorded with respect to certain voxel time courses. By using Pearson correlations between two time courses, we can calculate correlation between two ROIs, and a graph is constructed by connecting ROIs whose correlations is higher than a threshold value. For ADHD and HI tasks, the functional response is real values, so we discretize the functional response to binary values by using a simple threshold. 
 
-Dataset:
+**Dataset:**
 The data set is available here (Brain.zip)
 
-Citations:
-If you used this dataset, please cite the following papers:
-Shirui Pan, Jia Wu, Xingquan Zhu, Guodong Long, and Chengqi Zhang. " Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification."  IEEE Trans. Cybernetics (TCYB) 47(3): 744-758 (2017).
+**Citations:**
+- If you used this dataset, please cite the following papers:
+- _Shirui Pan, Jia Wu, Xingquan Zhu, Guodong Long, and Chengqi Zhang. " Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification."  IEEE Trans. Cybernetics (TCYB) 47(3): 744-758 (2017)._
 
-Reference:
-1.	C. Borgelt and M. R. Berthold, “Mining molecular fragments: Finding relevant substructures of molecules,” 2002 IEEE International Conference on Data Mining. IEEE, 2002, pp. 51–58.
-2.	S. Pan, J. Wu, and X. Zhu, “Cogboost: Boosting for fast cost-sensitive graph classification,” IEEE Transactions on Knowledge and Data Engineering, 2015.
+### Reference:
 
-
-3.	S. Pan, J. Wu, X. Zhu, and C. Zhang, “Graph ensemble boosting for imbalanced noisy graph stream classification,” IEEE 
-Transactions on Cybernetic, 2015.
-
-
-4.	S. Pan, X. Zhu, C. Zhang, and P. S. Yu, “Graph stream classification using labeled and unlabeled graphs,” in Proc. of ICDE. IEEE, 2013. 
-
-5.	Shirui Pan, Jia Wu, Xingquan Zhu, and Chengqi Zhang, “Graph Ensemble Boosting for Imbalanced Noisy Graph Stream Classification",  IEEE Transactions on Cybernetics (TCYB), 45(5): 940-954 (2015).
-6.	R. Craddock, C. James, P. Holtzheimer, X. Hu, and H. Mayberg, “A whole brain fmri atlas generated via spatially constrained spectral clustering,” Human Brain Mapping, vol. 33, 2012.
+1. C. Borgelt and M. R. Berthold, “Mining molecular fragments: Finding relevant substructures of molecules,” 2002 IEEE International Conference on Data Mining. IEEE, 2002, pp. 51–58.
+1. S. Pan, J. Wu, and X. Zhu, “Cogboost: Boosting for fast cost-sensitive graph classification,” IEEE Transactions on Knowledge and Data Engineering, 2015.
+1. S. Pan, J. Wu, X. Zhu, and C. Zhang, “Graph ensemble boosting for imbalanced noisy graph stream classification,” IEEE Transactions on Cybernetic, 2015.
+1. S. Pan, X. Zhu, C. Zhang, and P. S. Yu, “Graph stream classification using labeled and unlabeled graphs,” in Proc. of ICDE. IEEE, 2013. 
+1. Shirui Pan, Jia Wu, Xingquan Zhu, and Chengqi Zhang, “Graph Ensemble Boosting for Imbalanced Noisy Graph Stream Classification",  IEEE Transactions on Cybernetics (TCYB), 45(5): 940-954 (2015).
+1. R. Craddock, C. James, P. Holtzheimer, X. Hu, and H. Mayberg, “A whole brain fmri atlas generated via spatially constrained spectral clustering,” Human Brain Mapping, vol. 33, 2012.
 
 
 
-Appendix:
+
+
+### Appendix:
+
 About the File Format:
-1.	Molecular Graphs:
-SDF file:
+#### 1.	Molecular Graphs:
+**SDF file:**
+
 SDF is one of a family of chemical-data file formats developed by MDL; it is intended especially for structural information. "SDF" stands for structure-data file, and SDF files actually wrap the molfile (MDL Molfile) format. Multiple compounds are delimited by lines consisting of four dollar signs ($$$$). A feature of the SDF format is its ability to include associated data. An example of SDF file is available here (example.sdf):
 
 Note that the associated data “> <value>” in the file indicates the class label of a chemical compound, -1.0 means it is a negative example while 1.0 means it is a positive example. 
@@ -133,20 +139,32 @@ Here is a link (http://cdb.ics.uci.edu/cgibin/Smi2DepictWeb.py) you can have a t
 
  
 
-2.	General Graphs:
-NEL file
+#### 2.	General Graphs:
+**NEL file:
+**
+
 The NEL file is a general representation of graph objects, which explicitly shows the node edges information. An example of NEL file is as follows:
+
 n 1 a
+
 n 2 b
+
 n 3 c
+
 e 1 2 A
+
 e 1 3 B
+
 g graph_1
+
 x 1.0
 
 In this example, the first 3 lines define 3 nodes with node label ‘a’, ‘b’, and ‘c’. 
+
 ‘e 1 2 A’ means there is an edge with label A between the first and second nodes. 
+
 ‘g graph_1’ defines the name of this graph.
+
 ‘x 1.0’ indicates the class label of this graph. For binary classification, 1.0 means positive, -1.0 means negative.
 
 
