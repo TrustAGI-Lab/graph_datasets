@@ -1,9 +1,18 @@
 ## A Repository of Benchmark Graph Dataset
 
 
-This repository maintains several benchmark graph datasets, which are widely used for graph classification. The graph datasets ranges from chemical compounds, scientific publications, to twitter sentiment graphs. The chemical compound graph datasets are in “.sdf” or “.smi” format, and other graph dataset are represented as “.nel” format. All these graph datasets can be handle by frequent subgraph miner packages such as Moss [1]. A summarization of our graph datasets is given in Table 1.
+This repository maintains several benchmark graph datasets, which are widely used for graph classification. The graph datasets consist of:
 
-[Graph Datasets](https://github.com/shiruipan/graph_datasets/blob/master/Picture1.png "Graph Datasets")
+- **chemical compounds**
+- **scientific publications**  
+- **twitter sentiment graphs** 
+- **brain networks**
+
+
+The chemical compound graph datasets are in “.sdf” or “.smi” format, and other graph dataset are represented as “.nel” format. All these graph datasets can be handle by frequent subgraph miner packages such as Moss [1]. A summarization of our graph datasets is given in Table 1.
+
+![Fig 1 (Graph Datasets)]({{site.baseurl}}/https://github.com/shiruipan/graph_datasets/blob/master/Picture1.png)
+
 
 If you used the dataset, please cite the related papers properly.
 
