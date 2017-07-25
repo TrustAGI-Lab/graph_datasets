@@ -9,7 +9,8 @@ This repository maintains several benchmark graph datasets, which are widely use
 - **brain networks**
 
 
-The chemical compound graph datasets are in “.sdf” or “.smi” format, and other graph dataset are represented as “.nel” format. All these graph datasets can be handle by frequent subgraph miner packages such as Moss [1] or other softwares. A summarization of our graph datasets is given in [Table 1](https://github.com/shiruipan/graph_datasets/blob/master/Picture1.png).
+The chemical compound graph datasets are in “.sdf” or “.smi” format, and other graph dataset are represented as “.nel” format. All these graph datasets can be handle by frequent subgraph miner packages such as Moss [1] or other softwares. These graphs can be easily converted to other formats handled by Matlab or other softwares. 
+A summarization of our graph datasets is given in [Table 1](https://github.com/shiruipan/graph_datasets/blob/master/Picture1.png).
 
 ![Fig 1 (Graph Datasets)]({{site.baseurl}}/Picture1.png)
 
