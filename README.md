@@ -131,14 +131,20 @@ About the File Format:
 #### 1.	Molecular Graphs:
 **SDF file:**
 
-SDF is one of a family of chemical-data file formats developed by MDL; it is intended especially for structural information. "SDF" stands for structure-data file, and SDF files actually wrap the molfile (MDL Molfile) format. Multiple compounds are delimited by lines consisting of four dollar signs ($$$$). A feature of the SDF format is its ability to include associated data. An example of SDF file is available here (example.sdf):
+SDF is one of a family of chemical-data file formats developed by MDL; it is intended especially for structural information. "SDF" stands for structure-data file, and SDF files actually wrap the molfile (MDL Molfile) format. Multiple compounds are delimited by lines consisting of four dollar signs ($$$$). A feature of the SDF format is its ability to include associated data. An example of SDF file is available here (**[example.sdf](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/example.sdf)**):
 
 Note that the associated data “> <value>” in the file indicates the class label of a chemical compound, -1.0 means it is a negative example while 1.0 means it is a positive example. 
-SMI file:
+  
+**SMI file:**
+
 The Simplified Molecular Input Line Entry Specification (SMILES) is a line notation for molecules. SMILES strings include connectivity but do not include 2D or 3D coordinates. Example of our smi format is:
+
 TR155,-1,c1c(Cl)cc(Cl)c(O)c1Cl 
+
 TR174,-1,c1cc(N)ccc1N 
+
 TR366,1,c1cc(O)ccc1O
+
 Where each line indicates a chemical compounds in the format as follows: 
 ID, Class Label, Smiles String
 
