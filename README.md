@@ -37,6 +37,9 @@ If you used this dataset, please cite 1-2 following papers:
 - _Shirui Pan, Jia Wu, Xingquan Zhu, and Chengqi Zhang, “Graph Ensemble Boosting for Imbalanced Noisy Graph Stream Classification",  IEEE Transactions on Cybernetics (TCYB), 45(5): 940-954 (2015)._
 - _Shirui Pan, Xingquan Zhu, Chengqi Zhang, and Philip S. Yu. "Graph Stream Classification using Labeled and Unlabeled Graphs", International Conference on Data Engineering (ICDE), pages 398-409, 2013_
 - _Shirui Pan, Jia Wu, Xingquan Zhu, Guodong Long, and Chengqi Zhang. " Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification."  IEEE Trans. Cybernetics (TCYB) 47(3): 744-758 (2017)._
+- _Shirui Pan, Jia Wu, Xingquan Zhu, Guodong Long, Chengqi Zhang. "Finding the best not the most: regularized loss minimization subgraph selection for graph classification." Pattern Recognition 48(11): 3783-3796 (2015)_
+
+
 
 ### 2.	PTC Predictive Toxicology Challenge Data (PTC)
 
