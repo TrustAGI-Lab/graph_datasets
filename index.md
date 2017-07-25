@@ -21,6 +21,8 @@ If you used the dataset, please cite the related papers properly.
 **Description:** 
 
 The NCI graph datasets are commonly used as the benchmark for graph classification. Each NCI dataset belongs to a bioassay task for anticancer activity prediction, where each chemical compound is represented as a graph, with atoms representing nodes and bonds as edges. A chemical compound is positive if it is active against the corresponding cancer, or negative otherwise.  Table 1 summarizes the NCI graph data we download from PubChem. We have removed disconnected graphs and graphs with unexpected atoms (some graphs have atoms represented as `*`) in the original graphs. Columns 2-3 show the number of positive and total number of graphs in each dataset, and Columns 4-5 indicate the average number of nodes and edges in each dataset, respectively. 
+
+Number of Datasets: **18 (9 imbalanced + 9 balanced data)**
  
 **Full Dataset:**
 
@@ -50,6 +52,9 @@ This PTC graph dataset include a number of carcinogenicity tasks for toxicology 
 
 The dataset we selected contains 417 compounds from four types of test animals: MM (male mouse), FM (female mouse), MR (male rat), and FR (female rat). Each compound is with one label selected from {CE, SE, P, E, EE, IS, NE, N}, which stands for Clear Evidence of Carcinogenic Activity (CE), Some Evidence of Carcinogenic Activity (SE), Positive (P), Equivocal (E), Equivocal Evidence of Carcinogenic Activity (EE), Inadequate Study of Carcinogenic Activity (IS), No Evidence of Carcinogenic Activity (NE), and Negative (N).
 
+Number of Datasets: **8 ( 4 Full + 4 Sub)**
+
+
 **Full Dataset:**
 
 By setting {CE, SE, P} as positive label, {NE, N} as negative label, and remove the data with {E, EE, IS} we can obtain four graph datasets **[PTC_pn.zip](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/PTC_pn.zip?raw=true)**.
@@ -64,11 +69,14 @@ If you used this dataset, please cite the following paper:
 - _Shirui Pan, Jia Wu, Xingquan Zhu, Guodong Long, and Chengqi Zhang. " Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification."  IEEE Trans. Cybernetics (TCYB) 47(3): 744-758 (2017)._
 
 
-### 3.	DBLP Graph Datasets
+### 3.	DBLP Graph Datasets (DBLP)
 
 **Description:**
 
 The DBLP dataset consists of bibliography data in computer science. Each record in DBLP is associated with a number of attributes such as abstract, authors, year, venue, title, and reference ID. To build a graph stream, we select a list of conferences (as shown in Table I) and use the papers published in these conferences (in chronological order) to form a binary-class graph stream. The classification task is to predict whether a paper belongs to DBDM (database and data mining) or CVPR (computer vision and pattern recognition) field, by using the references and the title of each paper. 
+
+Number of Datasets: **1**
+
 
 **Version 1:**
 Each paper in DBLP is represented as a graph, where each node denotes a Paper ID or a keyword and each edge denotes the citation relationship between papers or keyword relations in the title. More specifically, we denote that (1) each paper ID is a node; (2) if a paper P.A cites another paper P.B, there is an edge between P.A and P.B; (3) each keyword in the title is also a node; (4) each paper ID node is connected to the keyword nodes of the paper; and (5) for each paper, its keyword nodes are fully connected with each other. An example of DBLP graph data is shown in Fig. 4.
@@ -81,11 +89,14 @@ If you used this dataset, please cite the following paper:
 - _Shirui Pan, Xingquan Zhu, Chengqi Zhang, and Philip S. Yu. "Graph Stream Classification using Labeled and Unlabeled Graphs", International Conference on Data Engineering (ICDE), pages 398-409, 2013_
 
 
-### 4.	Twitter Sentiment Graph Data
+### 4.	Twitter Sentiment Graph Data (Twitter)
 
 **Description:**
 
 This dataset is extracted from twitter sentiment classification. Because of the inherently short and sparse nature, twitter sentiment analysis (i.e., predicting whether a tweet reflects a positive or a negative feeling) is a difficult task. To build a graph dataset, we represent each tweet as a graph by using tweet content, with nodes in each graph denoting the terms and/or smiley symbols (e.g, :-D and :-P) and edges indicating the co-occurrence relationship between two words or symbols in each tweet. To ensure the quality of the graph, we only use tweets containing 20 or more words. We select the tweets from April 6 to June 16 to generate 140,949 graphs (in a chronological order). This dataset has been used for graph stream classification in [3] and cost-sensitive learning in [2].
+
+Number of Datasets: **1**
+
 
 **Dataset:**
 
@@ -98,11 +109,14 @@ If you used this dataset, please cite the following papers:
 - _Shirui Pan, Jia Wu, and Xingquan Zhu “CogBoost: Boosting for Fast Cost-sensitive Graph Classification",  IEEE Transactions on Knowledge and Data Engineering (TKDE),  27(11): 2933-2946 (2015)_
 - _Shirui Pan, Jia Wu, Xingquan Zhu, and Chengqi Zhang, “Graph Ensemble Boosting for Imbalanced Noisy Graph Stream Classification",  IEEE Transactions on Cybernetics (TCYB), 45(5): 940-954 (2015)._
 
-### 5.	Functional Brain Network Analysis Data
+### 5.	Functional Brain Network Analysis Data (Brain)
 
 **Description:**
 
 BrainNet Functional Brain Network Analysis Data are constructed from the whole brain functional magnetic res- onance image (fMRI) atlas [6]. The purpose of the study is to map brain as a network (or a graph) where each node corresponds to a region of Interest (ROI) and the edge indicates correlations between two ROIs. In our experiments, we use functional parcellation results, CC200, from [6], which parcellate each brain into 200 regions of interest. In order to discover relationships between ROIs, the mean values of each ROI are recorded with respect to certain voxel time courses. By using Pearson correlations between two time courses, we can calculate correlation between two ROIs, and a graph is constructed by connecting ROIs whose correlations is higher than a threshold value. For ADHD and HI tasks, the functional response is real values, so we discretize the functional response to binary values by using a simple threshold. 
+
+Number of Datasets: **3**
+
 
 **Dataset:**
 The data set is available here (**[Brain.zip](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/Brain.zip?raw=true)**)
