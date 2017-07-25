@@ -26,14 +26,14 @@ Number of Dataset: 1
 
 
 
-# 4.	Twitter Sentiment Graph Data
+# 4.	Twitter Sentiment Graph Data (Twitter)
 Description:
 This dataset is extracted from twitter sentiment classification. Because of the inherently short and sparse nature, twitter sentiment analysis (i.e., predicting whether a tweet reflects a positive or a negative feeling) is a difficult task. To build a graph dataset, we represent each tweet as a graph by using tweet content, with nodes in each graph denoting the terms and/or smiley symbols (e.g, :-D and :-P) and edges indicating the co-occurrence relationship between two words or symbols in each tweet. To ensure the quality of the graph, we only use tweets containing 20 or more words. We select the tweets from April 6 to June 16 to generate 140,949 graphs (in a chronological order). This dataset has been used for graph stream classification in [3] and cost-sensitive learning in [2].
 
 Number of Dataset: 1
 
 
-# 5.	Functional Brain Network Analysis Data
+# 5.	Functional Brain Network Analysis Data (Brain)
 Description:
 BrainNet Functional Brain Network Analysis Data are constructed from the whole brain functional magnetic res- onance image (fMRI) atlas [6]. The purpose of the study is to map brain as a network (or a graph) where each node corresponds to a region of Interest (ROI) and the edge indicates correlations between two ROIs. In our experiments, we use functional parcellation results, CC200, from [6], which parcellate each brain into 200 regions of interest. In order to discover relationships between ROIs, the mean values of each ROI are recorded with respect to certain voxel time courses. By using Pearson correlations between two time courses, we can calculate correlation between two ROIs, and a graph is constructed by connecting ROIs whose correlations is higher than a threshold value. For ADHD and HI tasks, the functional response is real values, so we discretize the functional response to binary values by using a simple threshold. 
 
