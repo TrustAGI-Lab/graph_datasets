@@ -17,8 +17,7 @@ The full datasets of NCI graphs can be downloaded here (NCI_full.zip), which is 
 
 We randomly select #Pos number of negative graphs from each original graph set to create balanced graph datasets, which are available here (NCI_balanced.zip). This dataset was used in [5] for multi-task graph classification.
 
-**Citations:
-**
+**Citations:**
 
 If you used this dataset, please cite 1-2 following papers:
 
@@ -29,25 +28,21 @@ If you used this dataset, please cite 1-2 following papers:
 
 ### 2.	PTC Predictive Toxicology Challenge Data (PTC)
 
-**Description: 
-**
+**Description: **
 
 This PTC graph dataset include a number of carcinogenicity tasks for toxicology prediction of chemical compounds.
 
 The dataset we selected contains 417 compounds from four types of test animals: MM (male mouse), FM (female mouse), MR (male rat), and FR (female rat). Each compound is with one label selected from {CE, SE, P, E, EE, IS, NE, N}, which stands for Clear Evidence of Carcinogenic Activity (CE), Some Evidence of Carcinogenic Activity (SE), Positive (P), Equivocal (E), Equivocal Evidence of Carcinogenic Activity (EE), Inadequate Study of Carcinogenic Activity (IS), No Evidence of Carcinogenic Activity (NE), and Negative (N).
 
-**Full Dataset:
-**
+**Full Dataset:**
 
 By setting {CE, SE, P} as positive label, {NE, N} as negative label, and remove the data with {E, EE, IS} we can obtain four graph datasets PTC_pn.zip.
 
-**Sub-dataset:
-**
+**Sub-dataset:**
 
 The data can be formulated as a multi-task problem. We can randomly split 417 compounds into four equal non-overlapping subsets. For each subset, we only consider one type of carcinogenicity test as its learning task. The multi-task graph dataset can be downloaded here (PTC_mtl.zip).
 
-**Citation:
-**
+**Citation:**
 
 If you used this dataset, please cite the following paper:
 Shirui Pan, Jia Wu, Xingquan Zhu, Guodong Long, and Chengqi Zhang. " Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification."  IEEE Trans. Cybernetics (TCYB) 47(3): 744-758 (2017).
@@ -72,18 +67,15 @@ If you used this dataset, please cite the following paper:
 
 ### 4.	Twitter Sentiment Graph Data
 
-**Description:
-**
+**Description:**
 
 This dataset is extracted from twitter sentiment classification. Because of the inherently short and sparse nature, twitter sentiment analysis (i.e., predicting whether a tweet reflects a positive or a negative feeling) is a difficult task. To build a graph dataset, we represent each tweet as a graph by using tweet content, with nodes in each graph denoting the terms and/or smiley symbols (e.g, :-D and :-P) and edges indicating the co-occurrence relationship between two words or symbols in each tweet. To ensure the quality of the graph, we only use tweets containing 20 or more words. We select the tweets from April 6 to June 16 to generate 140,949 graphs (in a chronological order). This dataset has been used for graph stream classification in [3] and cost-sensitive learning in [2].
 
-**Dataset:
-**
+**Dataset:**
 
 The data set is available here (Twitter-Graph.zip)
 
-**Citations:
-**
+**Citations:**
 
 If you used this dataset, please cite the following papers:
 
@@ -100,7 +92,8 @@ BrainNet Functional Brain Network Analysis Data are constructed from the whole b
 The data set is available here (Brain.zip)
 
 **Citations:**
-- If you used this dataset, please cite the following papers:
+If you used this dataset, please cite the following papers:
+
 - _Shirui Pan, Jia Wu, Xingquan Zhu, Guodong Long, and Chengqi Zhang. " Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification."  IEEE Trans. Cybernetics (TCYB) 47(3): 744-758 (2017)._
 
 ### Reference:
