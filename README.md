@@ -1,4 +1,4 @@
-## A Repository of Benchmark Graph Dataset
+## A Repository of Benchmark Graph Datasets
 
 
 This repository maintains 31 benchmark graph datasets, which are widely used for graph classification. The graph datasets consist of:
