@@ -11,7 +11,6 @@ Number of Dataset: 18 (9 balanced dataset + 9 imbalanced dataset)
 2.	PTC Predictive Toxicology Challenge Data (PTC)
 Description: 
 This PTC graph dataset include a number of carcinogenicity tasks for toxicology prediction of chemical compounds.
-
 The dataset we selected contains 417 compounds from four types of test animals: MM (male mouse), FM (female mouse), MR (male rat), and FR (female rat). Each compound is with one label selected from {CE, SE, P, E, EE, IS, NE, N}, which stands for Clear Evidence of Carcinogenic Activity (CE), Some Evidence of Carcinogenic Activity (SE), Positive (P), Equivocal (E), Equivocal Evidence of Carcinogenic Activity (EE), Inadequate Study of Carcinogenic Activity (IS), No Evidence of Carcinogenic Activity (NE), and Negative (N).
 Number of Dataset:  8 (4 + 4)
 
