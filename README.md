@@ -9,7 +9,7 @@ This repository maintains several benchmark graph datasets, which are widely use
 - **brain networks**
 
 
-The chemical compound graph datasets are in “.sdf” or “.smi” format, and other graph dataset are represented as “.nel” format. All these graph datasets can be handle by frequent subgraph miner packages such as Moss [1]. A summarization of our graph datasets is given in Table 1.
+The chemical compound graph datasets are in “.sdf” or “.smi” format, and other graph dataset are represented as “.nel” format. All these graph datasets can be handle by frequent subgraph miner packages such as Moss [1]. A summarization of our graph datasets is given in [Table 1](https://github.com/shiruipan/graph_datasets/blob/master/Picture1.png).
 
 ![Fig 1 (Graph Datasets)](https://github.com/shiruipan/graph_datasets/blob/master/Picture1.png)
 
@@ -23,11 +23,11 @@ The NCI graph datasets are commonly used as the benchmark for graph classificati
  
 **Full Dataset:**
 
-The full datasets of NCI graphs can be downloaded here (NCI_full.zip), which is naturally imbalanced and ideal benchmark for imbalanced or cost-sensitive graph classification. We have considered cost-sensitive graph classification in [2], and graph stream classification in [3][4].
+The full datasets of NCI graphs can be downloaded here (**NCI_full.zip**), which are naturally imbalanced and ideal benchmark for imbalanced or cost-sensitive graph classification. We have considered cost-sensitive graph classification in [2], and graph stream classification in [3][4].
 
 **Partial Dataset:**
 
-We randomly select #Pos number of negative graphs from each original graph set to create balanced graph datasets, which are available here (NCI_balanced.zip). This dataset was used in [5] for multi-task graph classification.
+We randomly select #Pos number of negative graphs from each original graph set to create balanced graph datasets, which are available here (**NCI_balanced.zip**). This dataset was used in [5] for multi-task graph classification.
 
 **Citations:**
 
@@ -48,11 +48,11 @@ The dataset we selected contains 417 compounds from four types of test animals: 
 
 **Full Dataset:**
 
-By setting {CE, SE, P} as positive label, {NE, N} as negative label, and remove the data with {E, EE, IS} we can obtain four graph datasets PTC_pn.zip.
+By setting {CE, SE, P} as positive label, {NE, N} as negative label, and remove the data with {E, EE, IS} we can obtain four graph datasets **PTC_pn.zip**.
 
 **Sub-dataset:**
 
-The data can be formulated as a multi-task problem. We can randomly split 417 compounds into four equal non-overlapping subsets. For each subset, we only consider one type of carcinogenicity test as its learning task. The multi-task graph dataset can be downloaded here (PTC_mtl.zip).
+The data can be formulated as a multi-task problem. We can randomly split 417 compounds into four equal non-overlapping subsets. For each subset, we only consider one type of carcinogenicity test as its learning task. The multi-task graph dataset can be downloaded here (**PTC_mtl.zip**).
 
 **Citation:**
 
@@ -68,7 +68,7 @@ The DBLP dataset consists of bibliography data in computer science. Each record 
 
 **Version 1:**
 Each paper in DBLP is represented as a graph, where each node denotes a Paper ID or a keyword and each edge denotes the citation relationship between papers or keyword relations in the title. More specifically, we denote that (1) each paper ID is a node; (2) if a paper P.A cites another paper P.B, there is an edge between P.A and P.B; (3) each keyword in the title is also a node; (4) each paper ID node is connected to the keyword nodes of the paper; and (5) for each paper, its keyword nodes are fully connected with each other. An example of DBLP graph data is shown in Fig. 4.
-The dataset can be downloaded here (DBLP_v1.zip).
+The dataset can be downloaded here (**DBLP_v1.zip**).
 
 
 **Citation:**
@@ -85,7 +85,7 @@ This dataset is extracted from twitter sentiment classification. Because of the 
 
 **Dataset:**
 
-The data set is available here (Twitter-Graph.zip)
+The data set is available here (**Twitter-Graph.zip**)
 
 **Citations:**
 
@@ -101,7 +101,7 @@ If you used this dataset, please cite the following papers:
 BrainNet Functional Brain Network Analysis Data are constructed from the whole brain functional magnetic res- onance image (fMRI) atlas [6]. The purpose of the study is to map brain as a network (or a graph) where each node corresponds to a region of Interest (ROI) and the edge indicates correlations between two ROIs. In our experiments, we use functional parcellation results, CC200, from [6], which parcellate each brain into 200 regions of interest. In order to discover relationships between ROIs, the mean values of each ROI are recorded with respect to certain voxel time courses. By using Pearson correlations between two time courses, we can calculate correlation between two ROIs, and a graph is constructed by connecting ROIs whose correlations is higher than a threshold value. For ADHD and HI tasks, the functional response is real values, so we discretize the functional response to binary values by using a simple threshold. 
 
 **Dataset:**
-The data set is available here (Brain.zip)
+The data set is available here (**Brain.zip**)
 
 **Citations:**
 If you used this dataset, please cite the following papers:
