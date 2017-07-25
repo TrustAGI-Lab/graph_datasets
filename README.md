@@ -10,9 +10,9 @@ This repository maintains several benchmark graph datasets, which are widely use
 
 
 The chemical compound graph datasets are in “.sdf” or “.smi” format, and other graph dataset are represented as “.nel” format. All these graph datasets can be handle by frequent subgraph miner packages such as Moss [1] or other softwares. These graphs can be easily converted to other formats handled by Matlab or other softwares. 
-A summarization of our graph datasets is given in [Table 1](https://github.com/shiruipan/graph_datasets/blob/master/Picture1.png).
+A summarization of our graph datasets is given in [Table 1](https://github.com/shiruipan/graph_datasets/blob/gh-pages/Picture1.png).
 
-![Fig 1 (Graph Datasets)]({{site.baseurl}}/Picture1.png)
+![Fig 1 (Graph Datasets)](https://github.com/shiruipan/graph_datasets/blob/gh-pages/Picture1.png)
 
 
 If you used the dataset, please cite the related papers properly.
@@ -153,7 +153,7 @@ Depict a chemical compound:
 The structure of chemical compounds can be depicted in a number of online toolboxes:
 Here is a link ([http://cdb.ics.uci.edu/cgibin/Smi2DepictWeb.py](http://cdb.ics.uci.edu/cgibin/Smi2DepictWeb.py)) you can have a try. Some pictures are obtained as follows:
 
-![Chemical Compound Visualization]({{site.baseurl}}/Picture2.png)
+![Chemical Compound Visualization](https://github.com/shiruipan/graph_datasets/blob/gh-pages/Picture2.png)
 
  
 
@@ -183,7 +183,3 @@ In this example, the first 3 lines define 3 nodes with node label ‘a’, ‘b�
 ‘g graph_1’ defines the name of this graph.
 
 ‘x 1.0’ indicates the class label of this graph. For binary classification, 1.0 means positive, -1.0 means negative.
-
-
-
-
