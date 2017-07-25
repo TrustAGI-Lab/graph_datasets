@@ -27,7 +27,7 @@ The full datasets of NCI graphs can be downloaded here (**[NCI_full.zip](https:/
 
 **Partial Dataset:**
 
-We randomly select #Pos number of negative graphs from each original graph set to create balanced graph datasets, which are available here (**[NCI_balanced.zip](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/NCI_balanced.zip?raw=true)**). This dataset was used in [5] for multi-task graph classification.
+We randomly select #Pos number of negative graphs from each original graph set to create balanced graph datasets, which are available here (**[NCI_balanced.zip](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/NCI_balanced.zip?raw=true)**). This dataset was used in [6] for genral graph classification and [5] for multi-task graph classification
 
 **Citations:**
 
@@ -119,6 +119,7 @@ If you used this dataset, please cite the following papers:
 1. S. Pan, X. Zhu, C. Zhang, and P. S. Yu, “Graph stream classification using labeled and unlabeled graphs,” in Proc. of ICDE. IEEE, 2013. 
 1. Shirui Pan, Jia Wu, Xingquan Zhu, and Chengqi Zhang, “Graph Ensemble Boosting for Imbalanced Noisy Graph Stream Classification",  IEEE Transactions on Cybernetics (TCYB), 45(5): 940-954 (2015).
 1. R. Craddock, C. James, P. Holtzheimer, X. Hu, and H. Mayberg, “A whole brain fmri atlas generated via spatially constrained spectral clustering,” Human Brain Mapping, vol. 33, 2012.
+1. S. Pan, J. Wu, X. Zhu, G. Long, C. Zhang. "Finding the best not the most: regularized loss minimization subgraph selection for graph classification." Pattern Recognition (PR) 48(11): 3783-3796 (2015)
 
 
 
