@@ -1,5 +1,3 @@
-# graph_dataset
-
 This repository maintains several benchmark graph datasets, which are widely used for graph classification. The graph datasets ranges from chemical compounds, scientific publications, to twitter sentiment graphs. The chemical compound graph datasets are in “.sdf” or “.smi” format, and other graph dataset are represented as “.nel” format. All these graph datasets can be handle by frequent subgraph miner packages such as Moss [1] and other softwares. 
 
 # 1.	NCI Anti-cancer activity prediction data (NCI)
