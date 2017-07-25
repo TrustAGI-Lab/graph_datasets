@@ -61,7 +61,7 @@ The data can be formulated as a multi-task problem. We can randomly split 417 co
 **Citation:**
 
 If you used this dataset, please cite the following paper:
-Shirui Pan, Jia Wu, Xingquan Zhu, Guodong Long, and Chengqi Zhang. " Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification."  IEEE Trans. Cybernetics (TCYB) 47(3): 744-758 (2017).
+- _Shirui Pan, Jia Wu, Xingquan Zhu, Guodong Long, and Chengqi Zhang. " Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification."  IEEE Trans. Cybernetics (TCYB) 47(3): 744-758 (2017)._
 
 
 ### 3.	DBLP Graph Datasets
