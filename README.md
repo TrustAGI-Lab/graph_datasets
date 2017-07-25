@@ -23,11 +23,11 @@ The NCI graph datasets are commonly used as the benchmark for graph classificati
  
 **Full Dataset:**
 
-The full datasets of NCI graphs can be downloaded here (**[NCI_full.zip](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/NCI_full.zip)**), which are naturally imbalanced and ideal benchmark for imbalanced or cost-sensitive graph classification. We have considered cost-sensitive graph classification in [2], and graph stream classification in [3][4].
+The full datasets of NCI graphs can be downloaded here (**[NCI_full.zip](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/NCI_full.zip?raw=true)**), which are naturally imbalanced and ideal benchmark for imbalanced or cost-sensitive graph classification. We have considered cost-sensitive graph classification in [2], and graph stream classification in [3][4].
 
 **Partial Dataset:**
 
-We randomly select #Pos number of negative graphs from each original graph set to create balanced graph datasets, which are available here (**[NCI_balanced.zip](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/NCI_balanced.zip)**). This dataset was used in [5] for multi-task graph classification.
+We randomly select #Pos number of negative graphs from each original graph set to create balanced graph datasets, which are available here (**[NCI_balanced.zip](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/NCI_balanced.zip?raw=true)**). This dataset was used in [5] for multi-task graph classification.
 
 **Citations:**
 
