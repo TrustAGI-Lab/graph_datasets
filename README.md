@@ -144,7 +144,9 @@ ID, Class Label, Smiles String
 
 Depict a chemical compound:
 The structure of chemical compounds can be depicted in a number of online toolboxes:
-Here is a link (http://cdb.ics.uci.edu/cgibin/Smi2DepictWeb.py) you can have a try.
+Here is a link ([http://cdb.ics.uci.edu/cgibin/Smi2DepictWeb.py](http://cdb.ics.uci.edu/cgibin/Smi2DepictWeb.py)) you can have a try. Some pictures are obtained as follows:
+
+![Chemical Compound Visualization]({{site.baseurl}}/Picture2.png)
 
  
 
