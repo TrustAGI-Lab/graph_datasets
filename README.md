@@ -28,7 +28,7 @@ If you used this dataset, please cite 1-2 following papers:
 
 ### 2.	PTC Predictive Toxicology Challenge Data (PTC)
 
-**Description: **
+**Description:**
 
 This PTC graph dataset include a number of carcinogenicity tasks for toxicology prediction of chemical compounds.
 
@@ -133,8 +133,7 @@ Here is a link (http://cdb.ics.uci.edu/cgibin/Smi2DepictWeb.py) you can have a t
  
 
 #### 2.	General Graphs:
-**NEL file:
-**
+**NEL file:**
 
 The NEL file is a general representation of graph objects, which explicitly shows the node edges information. An example of NEL file is as follows:
 
