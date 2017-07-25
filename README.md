@@ -23,11 +23,11 @@ The NCI graph datasets are commonly used as the benchmark for graph classificati
  
 **Full Dataset:**
 
-The full datasets of NCI graphs can be downloaded here (**[NCI_full.zip](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/NCI_full.zip?raw=true)**), which are naturally imbalanced and ideal benchmark for imbalanced or cost-sensitive graph classification. We have considered cost-sensitive graph classification in [2], and graph stream classification in [3][4].
+The full datasets of NCI graphs can be downloaded here (**[NCI_full.zip](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/NCI_full.zip?raw=true)**), which are naturally imbalanced and ideal benchmark for imbalanced or cost-sensitive graph classification. We have considered cost-sensitive graph classification in [2], and graph stream classification in [3][4][5].
 
 **Partial Dataset:**
 
-We randomly select #Pos number of negative graphs from each original graph set to create balanced graph datasets, which are available here (**[NCI_balanced.zip](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/NCI_balanced.zip?raw=true)**). This dataset was used in [6] for genral graph classification and [5] for multi-task graph classification
+We randomly select #Pos number of negative graphs from each original graph set to create balanced graph datasets, which are available here (**[NCI_balanced.zip](https://github.com/shiruipan/graph_datasets/blob/master/Graph_Repository/NCI_balanced.zip?raw=true)**). This dataset was used in [7] for genral graph classification and [5] for multi-task graph classification
 
 **Citations:**
 
@@ -117,7 +117,7 @@ If you used this dataset, please cite the following papers:
 1. S. Pan, J. Wu, and X. Zhu, “Cogboost: Boosting for fast cost-sensitive graph classification,” IEEE Transactions on Knowledge and Data Engineering, 2015.
 1. S. Pan, J. Wu, X. Zhu, and C. Zhang, “Graph ensemble boosting for imbalanced noisy graph stream classification,” IEEE Transactions on Cybernetic, 2015.
 1. S. Pan, X. Zhu, C. Zhang, and P. S. Yu, “Graph stream classification using labeled and unlabeled graphs,” in Proc. of ICDE. IEEE, 2013. 
-1. Shirui Pan, Jia Wu, Xingquan Zhu, and Chengqi Zhang, “Graph Ensemble Boosting for Imbalanced Noisy Graph Stream Classification",  IEEE Transactions on Cybernetics (TCYB), 45(5): 940-954 (2015).
+1. S. Pan, J. Wu, X. Zhu, G. Long, and C. Zhang. "Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification."  IEEE Trans. Cybernetics (TCYB) 47(3): 744-758 (2017).
 1. R. Craddock, C. James, P. Holtzheimer, X. Hu, and H. Mayberg, “A whole brain fmri atlas generated via spatially constrained spectral clustering,” Human Brain Mapping, vol. 33, 2012.
 1. S. Pan, J. Wu, X. Zhu, G. Long, C. Zhang. "Finding the best not the most: regularized loss minimization subgraph selection for graph classification." Pattern Recognition (PR) 48(11): 3783-3796 (2015)
 
