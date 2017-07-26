@@ -43,9 +43,10 @@ We randomly select #Pos number of negative graphs from each original graph set t
 
 **Citations:**
 
-If you used this dataset, please cite 1-2 following papers:
+If you used this dataset, please cite 2 of following papers:
 
 - _Shirui Pan, Jia Wu, and Xingquan Zhu “CogBoost: Boosting for Fast Cost-sensitive Graph Classification",  IEEE Transactions on Knowledge and Data Engineering (TKDE),  27(11): 2933-2946 (2015)_
+- _Shirui Pan, Jia Wu, Xingquan Zhu, Chengqi Zhang, Philip S. Yu. "Joint Structure Feature Exploration and Regularization for Multi-Task Graph Classification." IEEE Trans. Knowl. Data Eng. 28(3): 715-728 (2016)_
 - _Shirui Pan, Jia Wu, Xingquan Zhu, and Chengqi Zhang, “Graph Ensemble Boosting for Imbalanced Noisy Graph Stream Classification",  IEEE Transactions on Cybernetics (TCYB), 45(5): 940-954 (2015)._
 - _Shirui Pan, Xingquan Zhu, Chengqi Zhang, and Philip S. Yu. "Graph Stream Classification using Labeled and Unlabeled Graphs", International Conference on Data Engineering (ICDE), pages 398-409, 2013_
 - _Shirui Pan, Jia Wu, Xingquan Zhu, Guodong Long, and Chengqi Zhang. " Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification."  IEEE Trans. Cybernetics (TCYB) 47(3): 744-758 (2017)._
@@ -76,6 +77,7 @@ The data can be formulated as a multi-task problem. We can randomly split 417 co
 
 If you used this dataset, please cite the following paper:
 - _Shirui Pan, Jia Wu, Xingquan Zhu, Guodong Long, and Chengqi Zhang. " Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification."  IEEE Trans. Cybernetics (TCYB) 47(3): 744-758 (2017)._
+- _Shirui Pan, Jia Wu, Xingquan Zhu, Chengqi Zhang, Philip S. Yu. "Joint Structure Feature Exploration and Regularization for Multi-Task Graph Classification." IEEE Trans. Knowl. Data Eng. 28(3): 715-728 (2016)_
 
 
 ### 3.	DBLP Graph Datasets (DBLP)
