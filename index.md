@@ -43,7 +43,7 @@ We randomly select #Pos number of negative graphs from each original graph set t
 
 **Citations:**
 
-If you used this dataset, please cite 2 of following papers:
+If you used this dataset, please cite 2-3 of following papers:
 
 - _Shirui Pan, Jia Wu, and Xingquan Zhu “CogBoost: Boosting for Fast Cost-sensitive Graph Classification",  IEEE Transactions on Knowledge and Data Engineering (TKDE),  27(11): 2933-2946 (2015)_
 - _Shirui Pan, Jia Wu, Xingquan Zhu, Chengqi Zhang, Philip S. Yu. "Joint Structure Feature Exploration and Regularization for Multi-Task Graph Classification." IEEE Trans. Knowl. Data Eng. 28(3): 715-728 (2016)_
