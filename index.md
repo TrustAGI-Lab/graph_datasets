@@ -5,6 +5,7 @@ Recent years have witnessed an increasing number of applications involving objec
 
 Unlike conventional data, where each instance is represented in a feature-value vector format, graphs exhibit node–edge structural relationships and have no natural vector representation. This challenge has motivated many graph classification algorithms in recent years. Given a set of training graphs, each associated with a class label, graph classification aims to learn a model from the training graphs to predict the unseen graphs in future.  The following picture shows the difference betweeb classification on **vector data** and **graph data**.
 
+![(Graph Classification)]({{site.baseurl}}/VectorVsGraph.png)
 
 This repository maintains 31 benchmark graph datasets, which are widely used for graph classification. The graph datasets consist of:
 
