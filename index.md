@@ -1,11 +1,11 @@
-## A Repository of Benchmark Graph Datasets
+## A Repository of Benchmark Graph Datasets for Graph Classification
 
 
 This repository maintains 31 benchmark graph datasets, which are widely used for graph classification. The graph datasets consist of:
 
 - **chemical compounds**
-- **scientific publications**  
-- **twitter sentiment graphs** 
+- **citation networks**  
+- **social networks** 
 - **brain networks**
 
 
