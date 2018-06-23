@@ -5,7 +5,7 @@ Recent years have witnessed an increasing number of applications involving objec
 
 Unlike conventional data, where each instance is represented in a feature-value vector format, graphs exhibit node–edge structural relationships and have no natural vector representation. This challenge has motivated many graph classification algorithms in recent years. Given a set of training graphs, each associated with a class label, graph classification aims to learn a model from the training graphs to predict the unseen graphs in future.  The following picture shows the difference betweeb classification on **vector data** and **graph data**.
 
-![(Graph Classification)](https://github.com/shiruipan/graph_datasets/blob/gh-page/VectorVsGraph.png)
+![(Graph Classification)](https://github.com/shiruipan/graph_datasets/blob/gh-pages/VectorVsGraph.png)
 
 
 ### Dataset Summaization
@@ -19,9 +19,9 @@ This repository maintains 31 benchmark graph datasets, which are widely used for
 
 
 The chemical compound graph datasets are in “.sdf” or “.smi” format, and other graph dataset are represented as “.nel” format. All these graph datasets can be handle by frequent subgraph miner packages such as Moss [1] or other softwares. These graphs can be easily converted to other formats handled by Matlab or other softwares. 
-A summarization of our graph datasets is given in [Table 1](https://github.com/shiruipan/graph_datasets/blob/master/Picture1.png).
+A summarization of our graph datasets is given in [Table 1](https://github.com/shiruipan/graph_datasets/blob/gh-pages/Picture1.png).
 
-![Fig 1 (Graph Datasets)]({{site.baseurl}}/Picture1.png)
+![Fig 1 (Graph Datasets)](https://github.com/shiruipan/graph_datasets/blob/gh-pages/Picture1.png)
 
 
 If you used the dataset, please cite the related papers properly.
@@ -178,7 +178,7 @@ Depict a chemical compound:
 The structure of chemical compounds can be depicted in a number of online toolboxes:
 Here is a link ([http://cdb.ics.uci.edu/cgibin/Smi2DepictWeb.py](http://cdb.ics.uci.edu/cgibin/Smi2DepictWeb.py)) you can have a try. Some pictures are obtained as follows:
 
-![Chemical Compound Visualization](https://github.com/shiruipan/graph_datasets/blob/gh-page/Picture2.png)
+![Chemical Compound Visualization](https://github.com/shiruipan/graph_datasets/blob/gh-pages/Picture2.png)
 
  
 
